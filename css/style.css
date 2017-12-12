@@ -237,10 +237,10 @@ font-weight: 200;
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
  .col1
   {
-    margin:10px;
+    margin:0 auto;
         width:100%;
         text-align:left;
-        
+        margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: blue;
@@ -251,10 +251,10 @@ font-weight: 200;
 @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
  .col1
   {
-    margin:10px;
-        width:100%;
+       margin: 0 auto;
+        width:98%;
         text-align:left;
-        
+        margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: green;
@@ -265,10 +265,10 @@ font-weight: 200;
 @media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
  .col1
   {
-    margin:10px;
-        width:100%;
+    margin: 0 auto;
+        width:98%;
         text-align:left;
-        
+        margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: yellow;
