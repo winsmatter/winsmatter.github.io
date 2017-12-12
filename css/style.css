@@ -276,7 +276,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: yellow;
+      background-color: red;
 
   }
 }
