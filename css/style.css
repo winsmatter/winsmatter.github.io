@@ -240,18 +240,12 @@ font-weight: 200;
     margin:0 auto;
         width:100%;
         text-align:left;
-        margin-top:10px;
+        
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: blue;
 
   }
-  
-  .content_wrapper
-{
-  width: 100%;
-  margin: 0 auto;
-}
 }
 
 @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
@@ -266,11 +260,6 @@ font-weight: 200;
       background-color: green;
 
   }
-    .content_wrapper
-{
-  width: 100%;
-  margin: 0 auto;
-}
 }
 
 @media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
@@ -282,15 +271,9 @@ font-weight: 200;
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: #e1e3e4;
+      background-color: yellow;
 
   }
-    .content_wrapper
-{
-  width: 100%;
-  margin: 0 auto;
-}
-
 }
 /* toggle accordance */
 
