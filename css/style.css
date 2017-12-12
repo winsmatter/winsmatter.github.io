@@ -245,6 +245,13 @@ font-weight: 200;
     border:0;
     
   }
+    #col_two { 
+    float: none;
+    margin:0;
+    width:100%;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
  .col1
   {
     margin:0 auto;
