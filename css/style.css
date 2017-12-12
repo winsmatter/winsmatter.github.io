@@ -236,12 +236,6 @@ font-weight: 200;
 */
 @media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
 
-   #col_one { 
-    float: none;
-    margin:0;
-    width:100%;
-    border:0;
-   }
  .col1
   {
     margin:0 auto;
