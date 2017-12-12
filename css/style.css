@@ -267,6 +267,26 @@ and (-webkit-min-device-pixel-ratio : 2) {
   }
 }
 
+
+@media
+only screen
+and (min-device-width : 640px)
+and (max-device-width : 720px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio : 2) {
+ .col1
+  {
+       margin: 0 auto;
+        width:98%;
+        text-align:left;
+        margin-top:10px;
+        display:inline-block;    
+       /* Fallback (could use .jpg/.png alternatively) */
+      background-color: orange;
+
+  }
+}
+
 @media
 only screen
 and (min-device-width : 768px)
