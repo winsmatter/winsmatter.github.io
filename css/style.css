@@ -283,7 +283,7 @@ font-weight: 200;
 }
 
 
-@media only screen and (min-width: 200px), only screen and (min-device-width: 200px) {
+@media only screen and (man-width: 200px), only screen and (man-device-width: 200px) {
  #col_one { 
     float: none;
     margin:0;
