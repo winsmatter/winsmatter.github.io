@@ -273,6 +273,25 @@ font-weight: 200;
 }
 }
 
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+ .col1
+  {
+       margin: 0 auto;
+        width:98%;
+        text-align:left;
+        margin-top:10px;
+        display:inline-block;    
+       /* Fallback (could use .jpg/.png alternatively) */
+      background-color: green;
+
+  }
+    .content_wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
+}
+
 @media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
  .col1
   {
