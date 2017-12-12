@@ -234,7 +234,7 @@ font-weight: 200;
   }
 }
 */
-@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+@media only screen and (min-width: 300px) and(max-width: 320px), only screen and (max-device-width: 320px) {
 
    #col_one { 
     float: none;
@@ -256,7 +256,7 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+@media only screen and (min-width: 400px) and (max-width: 480px), only screen and (max-device-width: 480px) {
     #col_one { 
     float: none;
     margin:0;
