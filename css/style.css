@@ -1,0 +1,337 @@
+      
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
+body
+{
+	margin: 0;
+	padding: 0;
+  font-family: 'Tondo', Fallback, sans-serif;
+}
+.header
+{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		background: #e5322b;
+}
+.logo
+{
+		background-image: url('../img/logo.png');
+		width: 295px;
+		height: 73px;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+.content_wrapper
+{
+  width: 98%;
+  margin: 0 auto;
+}
+.wrapper
+{
+    background: #e7e7e7;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;  
+}
+#col_one, #col_two 
+{
+    background: #ccc;
+    background-color: rgb(204, 204, 204);
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 48%;
+    margin: 8px;
+    text-align: center;
+    float: left;
+}
+
+.pagedesc
+{
+   border-radius: 30px;
+   width: 100%;
+   margin: 0 auto;
+   background-color: red;
+}
+.optionheader
+{
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 background-color: red;
+   /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+   background-image: url(fallback-gradient.svg); 
+   /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+   background-image:
+   -webkit-gradient(linear, top, bottom, from(#f7f7f7), to(#dfdede));
+   /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+   background-image:
+   -webkit-linear-gradient(top, #f7f7f7, #dfdede);
+   /* Firefox 3.6 - 15 */
+   background-image:
+   -moz-linear-gradient(top, #f7f7f7, #dfdede);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(top, #f7f7f7, #dfdede);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to bottom, #f7f7f7, #dfdede);
+
+  border-bottom:   1px solid #dfe8f1;
+  
+
+
+}
+.optionheaderText
+{
+  text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	color: #e92527;
+	text-align: center;
+  font-style: normal;
+  font-weight: 600;
+	padding: 15px;
+}
+
+.optionheaderFont
+{
+  
+  font-size: 22px;
+  font-weight: 300;
+  color: #e92527;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  padding: 15px;
+}
+
+
+h3
+{
+ width: 100%;
+margin: 0;
+padding: 0;
+line-height: 40px;
+background-color: #F8A4A7;
+color: #FFFFFF;
+ font-style: normal;
+ 
+font-size: 14px;
+border: 1px solid #dfe8f1;
+}
+a
+{
+  text-decoration: none;
+}
+  .col1
+  {
+    margin:10px;
+        width:20%;
+        text-align:left;
+        
+        display:inline-block;    
+       /* Fallback (could use .jpg/.png alternatively) */
+      background-color: #e1e3e4;
+
+  }
+    .col2
+    {
+      margin:10px;
+        width:40%;
+        text-align:left;
+        /*border: 1px solid #e7e6e6;*/
+        display:inline-block;    
+       /* Fallback (could use .jpg/.png alternatively) */
+      background-color: #e1e3e4;
+
+      /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+     
+    }
+    .col2:hover
+    {
+      background-color: #e5322b;
+      color: #FFFFFF;
+      cursor: pointer;
+
+    }
+
+    .pageDesc
+    {
+      width: auto;
+      float: left;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+
+      .col1:hover
+    {
+      background-color: #e5322b;
+      color: #FFFFFF;
+      cursor: pointer;
+
+    }
+     .col1_txt:hover
+     {
+      color: #FFFFFF;
+      
+      font-weight: 700;
+     }
+    .col1_txt
+    {
+    	color:red;
+    	text-align: center;
+vertical-align: middle;
+  color: #2f2f2f;
+line-height: 40px; 
+font-weight: 200;
+    }
+    .col_container
+    {
+    	text-align:center;
+        display:inline-block;
+    	width:100%;
+      background-color: #ffffff;
+    	border: 1px solid #dfe8f1;
+        margin-bottom: 10PX;
+    }
+
+
+@media screen and (max-width: 768px) {
+   #col_one { 
+    float: none;
+    margin:0;
+    width:100%;
+    border:0;
+    
+  }
+  #col_two { 
+    float: none;
+    margin:0;
+    width:100%;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+  .col1
+  {
+    width: 100%;
+    margin:2px;
+  }
+  .col2
+  {
+    width: 100%;
+    margin:2px;
+  }
+}
+
+/* toggle accordance */
+
+
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.togglebox {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  transform: translateZ(0);
+ /*box-shadow: 0 1px 1px rgba(0,0,0,.1);*/
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+label {
+  position: relative;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 1px solid #ddd;
+ background-image:
+      -webkit-gradient(linear, top, bottom, from(#fb7772), to(#e92527));
+  
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image:
+    -webkit-linear-gradient(top, #fb7772, #e92527);
+
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(top, #fb7772, #e92527);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(top, #fb7772, #e92527);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to bottom, #fb7772, #e92527);
+  cursor: pointer;
+  text-align: center;
+}
+
+label[for*='1'] {
+  border: 0;
+}
+
+label:after {
+  content: '\002B';
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 24px;
+  font-family: fontawesome;
+  transform: rotate(90deg);
+  transition: .6s transform;
+}
+
+section {
+  height: 0;
+  transition: .3s all;
+  overflow: hidden;
+}
+
+#toggle1:checked ~ label[for*='1']:after,
+#toggle2:checked ~ label[for*='2']:after,
+#toggle3:checked ~ label[for*='3']:after,
+#toggle4:checked ~ label[for*='4']:after {
+  transform: rotate(0deg);
+}
+
+#toggle1:checked ~ #content1,
+#toggle2:checked ~ #content2,
+#toggle3:checked ~ #content3,
+#toggle4:checked ~ #content4 {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  margin: 15px 0;
+  padding: 0 20px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* end toggle accordance */
