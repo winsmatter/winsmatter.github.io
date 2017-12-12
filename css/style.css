@@ -234,7 +234,7 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
  .col1
   {
     margin:0 auto;
@@ -248,7 +248,7 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
  .col1
   {
        margin: 0 auto;
@@ -262,7 +262,21 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
+@media only screen and (max-width: 750px), only screen and (max-device-width: 750px) {
+ .col1
+  {
+    margin: 0 auto;
+        width:98%;
+        text-align:left;
+        margin-top:10px;
+        display:inline-block;    
+       /* Fallback (could use .jpg/.png alternatively) */
+      background-color: yellow;
+
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366x) {
  .col1
   {
     margin: 0 auto;
