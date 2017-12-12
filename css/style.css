@@ -246,6 +246,12 @@ font-weight: 200;
       background-color: blue;
 
   }
+  
+  .content_wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
 }
 
 @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
@@ -260,6 +266,11 @@ font-weight: 200;
       background-color: green;
 
   }
+    .content_wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
 }
 
 @media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
@@ -274,6 +285,11 @@ font-weight: 200;
       background-color: yellow;
 
   }
+    .content_wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
 }
 /* toggle accordance */
 
