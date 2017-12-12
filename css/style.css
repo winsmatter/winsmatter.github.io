@@ -248,7 +248,12 @@ font-weight: 200;
   }
 }
 
-@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+@media
+only screen
+and (min-device-width : 640px)
+and (max-device-width : 720px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio : 2) {
  .col1
   {
        margin: 0 auto;
