@@ -280,7 +280,7 @@ font-weight: 200;
     #col_two { 
     float: none;
     margin:0;
-    width:100%;
+    width:50%;
     border:0;
     border-bottom:2px solid #000;    
   }
