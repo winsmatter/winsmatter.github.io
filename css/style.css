@@ -207,7 +207,7 @@ font-weight: 200;
     }
 
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
    #col_one { 
     float: none;
     margin:0;
@@ -233,7 +233,7 @@ font-weight: 200;
     margin:2px;
   }
 }
-
+*/
 @media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
  .col1
   {
