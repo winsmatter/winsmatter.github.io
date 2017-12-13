@@ -142,7 +142,7 @@ a
         /*border: 1px solid #e7e6e6;*/
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: #e1e3e4;
+    background-color: #eeeeee;
 
       /* SVG fallback for IE 9 (could be data URI, or could use filter) */
      
@@ -250,7 +250,7 @@ font-weight: 200;
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: blue;
+      background-color: #eeeeee;
 
 	  
   }
@@ -280,7 +280,7 @@ font-weight: 200;
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: blue;
+      background-color: #eeeeee;
 
 	  
   }
@@ -312,7 +312,7 @@ font-weight: 200;
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: black;
+      background-color: #eeeeee;
 
 	  
   }
@@ -345,7 +345,7 @@ font-weight: 200;
         margin-top:10px;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: pink;
+      background-color: #eeeeee;
 
 	  
   }
@@ -361,7 +361,7 @@ font-weight: 200;
         
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: #e1e3e4;
+      background-color: #eeeeee;
 
   }
   
@@ -377,8 +377,7 @@ font-weight: 200;
         
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
-      background-color: #e1e3e4;
-
+      background-color: #eeeeee;
   }
 
   
