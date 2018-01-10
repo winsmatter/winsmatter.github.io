@@ -22,14 +22,21 @@
       </div>
 <div class="content_wrapper">
 
-<div class="togglebox">
-  
-  <input id="toggle1" type="radio" name="toggle" />
-  <label for="toggle1">Video</label>
-  
-  <section id="content1">
-       <div id="col_one">
-      <h3>RETAILER</h3>
+
+ <div class="accordionWrapper">
+<div class="accordionItem open">
+      <h2 class="accordionItemHeading">Video</h2>
+      <div class="accordionItemContent">
+           
+
+                  <ul class="cd-accordion-menu">
+        <li class="has-children">
+          <input type="checkbox" name ="sub-group-1" id="sub-group-1">
+        <label  for="sub-group-1"> <h3>RETAILER</h3>
+          </label>
+    <ul>
+      <li>
+
   <div class="col_container"> 
     
         <div class="optionheader">
@@ -195,11 +202,16 @@
   
 
 
+</li>
+</ul>
+</li>
+<li class="has-children">
+          <input type="checkbox" name ="sub-group-1" id="sub-group-2">
+        <label for="sub-group-2"><h3>PROMOTER</h3></label>
+ 
 
-
-
-
-      <h3>PROMOTER</h3>
+<ul>
+<li>      
   <div class="col_container"> 
     
         <div class="optionheader">
@@ -293,12 +305,17 @@
 
  
     </div>
-</div>
+</li>
+</ul>
+</li>
 
 
-    <div id="col_two">
-
-      <h3>CUSTOMER</h3>
+    <li class="has-children">
+          <input type="checkbox" name ="sub-group-1" id="sub-group-2">
+        <label for="sub-group-2"><h3>CUSTOMER</h3></label>
+ <ul>
+<li> 
+   
       <div class="col_container"> 
       <div class="optionheader">
         <div class="optionheaderText">
@@ -620,16 +637,20 @@
 </div>
 
 
-</div>
-  </section>
-  
+</li>
+</ul>
+</li>
+</ul>
 
-  <!-- one pager started -->
-  <input id="toggle3" type="radio" name="toggle" />
-  <label for="toggle3">One Pager</label>
-  
-  <section id="content3">
-    <a href="One-Pager/BankJourneyonePager.pdf" target="_blank">
+      </div>
+    </div>
+
+    <div class="accordionItem close">
+      <h2 class="accordionItemHeading">One Pager</h2>
+      <div class="accordionItemContent">
+
+        <div class="col_container">
+           <a href="One-Pager/BankJourneyonePager.pdf" target="_blank">
 
     <div class="col1">
       <div class="col1_txt">
@@ -737,16 +758,18 @@
       </div>  
     </div>
 </a>
+     
+</div>
 
-  </section>
+      </div>
+    </div>
 
-  <!-- end of One-Pager -->
+    <div class="accordionItem close">
+      <h2 class="accordionItemHeading">Training Module (PPT-PDF)</h2>
+      <div class="accordionItemContent">
 
-  <input id="toggle4" type="radio" name="toggle" />
-  <label for="toggle4">Training Module (PPT-PDF)</label>
-  
-  <section id="content4">
-       <div class="col1">
+      <div class="col_container">
+              <div class="col1">
       <div class="col1_txt">
         Mirta App
       </div>
@@ -841,10 +864,27 @@
       -
       </div>  
     </div>
-  </section>
+</div>
+      </div>
+    </div>
+</div>
+</div>
 
-</div>
-</div>
 </body>
 </html>
-
+<script type="text/javascript">
+    var accItem = document.getElementsByClassName('accordionItem');
+    var accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem close';
+        }
+        if (itemClass == 'accordionItem close') {
+            this.parentNode.className = 'accordionItem open';
+        }
+    }
+</script>
