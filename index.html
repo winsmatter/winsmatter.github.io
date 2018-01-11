@@ -24,7 +24,7 @@
 
 
  <div class="accordionWrapper">
-<div class="accordionItem open">
+<div class="accordionItem close">
       <h2 class="accordionItemHeading">Video</h2>
       <div class="accordionItemContent">
            
@@ -877,6 +877,7 @@
     var accHD = document.getElementsByClassName('accordionItemHeading');
     for (i = 0; i < accHD.length; i++) {
         accHD[i].addEventListener('click', toggleItem, false);
+
     }
     function toggleItem() {
         var itemClass = this.parentNode.className;
