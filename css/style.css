@@ -21,6 +21,10 @@ body
     text-align: center;
     background: #e5322b;
 }
+h5
+{
+  color: #000000;
+}
 .logo
 {
     background-image: url('../img/logo.png');
@@ -115,7 +119,15 @@ body
   padding: 15px;
 }
 
+.bgcolorSelected
+{
+    background-color: white;
+}
 
+.bgcolorunSelected
+{
+    background-color: red;
+} 
 h3
 {
  width: 100%;
@@ -224,6 +236,53 @@ font-weight: 200;
   }
 }
 */
+
+#toggle1:checked ~ label[for*='1']:after,
+#toggle2:checked ~ label[for*='2']:after,
+#toggle3:checked ~ label[for*='3']:after,
+#toggle4:checked ~ label[for*='4']:after {
+  transform: rotate(0deg);
+}
+
+#toggle1:checked ~ #content1,
+#toggle2:checked ~ #content2,
+#toggle3:checked ~ #content3,
+#toggle4:checked ~ #content4 {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#toggle01:checked ~ label[for*='01']:after,
+#toggle02:checked ~ label[for*='02']:after,
+#toggle03:checked ~ label[for*='03']:after,
+#toggle04:checked ~ label[for*='04']:after {
+  transform: rotate(0deg);
+}
+
+#toggle01:checked ~ #content01,
+#toggle02:checked ~ #content02,
+#toggle03:checked ~ #content03,
+#toggle04:checked ~ #content04 {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.togglebox ul {
+  /* by default hide all sub menus */
+  display: none;
+}
+ 
+.togglebox input[type=checkbox]:checked + label + ul,
+.togglebox input[type=checkbox]:checked + label:nth-of-type(n) + ul {
+  /* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
+  /* show children when item is checked */
+  display: block;
+}
 
 @media (min-width: 320px)
 {
@@ -409,11 +468,11 @@ input[type="radio"] {
 label {
   position: relative;
   display: block;
-  height: 50px;
-  line-height: 50px;
+  
+  line-height: 40px;
   
   color: #FFFFFF;
-  font-size: 20px;
+  background-color: #d9d9d9;
   font-weight: 700;
   border-top: 1px solid #ddd;
  
@@ -421,8 +480,26 @@ label {
   text-align: center;
 }
 
+.h5label
+{
+  margin-bottom: 5px;
+}
 
-
+.h5label:after
+{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 24px;
+  font-family: fontawesome;
+  transform: rotate(90deg);
+  transition: .6s transform;
+}
+.h5:after
+{
+ color:red;
+}
 label[for*='1'] {
   border: 0;
 }
@@ -558,7 +635,7 @@ border-radius: 3px;
     /*border: 1px solid #ddd;*/
     width: 100%;
     
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
     display:block;
     -webkit-transform: scaleY(1);
   -o-transform: scaleY(1);
@@ -576,6 +653,8 @@ border-radius: 3px;
         box-sizing: border-box;
 
 }
+
+
 
 .open .accordionItemHeading{
     margin:0px;
